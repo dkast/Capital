@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/RNFirebase/RNFirebase.m \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/RNFirebase/RNFirebase.h \
+  ../../../ios/Pods/Firebase/Core/Sources/module.modulemap \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/Firebase/Core/Sources/module.modulemap \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h

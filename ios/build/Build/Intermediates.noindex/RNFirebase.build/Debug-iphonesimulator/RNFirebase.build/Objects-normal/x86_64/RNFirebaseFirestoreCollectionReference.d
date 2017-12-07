@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestoreCollectionReference.m \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestoreCollectionReference.h \
+  ../../../ios/Pods/Firebase/Core/Sources/module.modulemap \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Modules/module.modulemap \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRWriteBatch.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRTransaction.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRSnapshotMetadata.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRSetOptions.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRQuerySnapshot.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRGeoPoint.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestoreSettings.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestoreErrors.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestore.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFieldValue.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFieldPath.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRDocumentSnapshot.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRDocumentReference.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRDocumentChange.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRListenerRegistration.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRQuery.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRFirestoreSwiftNameSupport.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/Firebase/Core/Sources/module.modulemap \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FIRCollectionReference.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/../../../ios/Pods/FirebaseFirestore/Frameworks/FirebaseFirestore.framework/Headers/FirebaseFirestore.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/RNFirebase/RNFirebaseEvents.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestore.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/RNFirebase/firestore/RNFirebaseFirestoreDocumentReference.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-firebase/ios/RNFirebase/RNFirebaseUtil.h
