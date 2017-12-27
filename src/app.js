@@ -6,10 +6,10 @@ registerScreens();
 
 const tabs = [
   {
-    label: "Transactions",
-    screen: "Capital.Transactions",
-    icon: require("../img/money.png"),
-    title: "Transactions"
+    label: "Precios",
+    screen: "Capital.Currency",
+    icon: require("../img/coins.png"),
+    title: "Precios"
   },
   {
     label: "Add",

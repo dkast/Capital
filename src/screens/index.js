@@ -1,11 +1,11 @@
 import { Navigation } from "react-native-navigation";
 
-import Transactions from "./transactions";
+import Currency from "./currency";
 import PlusPlaceholder from "./plusPlaceholder";
 import AddTransaction from "./addTransaction";
 
 export function registerScreens() {
-  Navigation.registerComponent("Capital.Transactions", () => Transactions);
+  Navigation.registerComponent("Capital.Currency", () => Currency);
   Navigation.registerComponent(
     "Capital.PlusPlaceholder",
     () => PlusPlaceholder

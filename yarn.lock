@@ -990,6 +990,10 @@ ci-info@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-1.1.1.tgz#47b44df118c48d2597b56d342e7e25791060171a"
 
+cldrjs@^0.4.8:
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/cldrjs/-/cldrjs-0.4.8.tgz#3b994c464d2a32b5aca7c5de17a60a87e45dc4f9"
+
 cli-cursor@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
@@ -1743,6 +1747,10 @@ global@^4.3.0:
   dependencies:
     min-document "^2.19.0"
     process "~0.5.1"
+
+"globalize@github:joshswan/globalize":
+  version "1.1.1"
+  resolved "https://codeload.github.com/joshswan/globalize/tar.gz/1e0466dcba692e3a7674e40a43d23f160f4f4bf4"
 
 globals@^9.18.0:
   version "9.18.0"
@@ -2861,6 +2869,10 @@ minimist@~0.0.1:
   dependencies:
     minimist "0.0.8"
 
+moment@^2.19.3:
+  version "2.20.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.20.1.tgz#d6eb1a46cbcc14a2b2f9434112c1ff8907f313fd"
+
 morgan@~1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/morgan/-/morgan-1.6.1.tgz#5fd818398c6819cba28a7cd6664f292fe1c0bbf2"
@@ -3257,6 +3269,10 @@ plist@^1.2.0:
     xmlbuilder "4.0.0"
     xmldom "0.1.x"
 
+postinstall-build@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/postinstall-build/-/postinstall-build-5.0.1.tgz#b917a9079b26178d9a24af5a5cd8cb4a991d11b9"
+
 prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
@@ -3294,7 +3310,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.8, prop-types@^15.6.0:
+prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
   dependencies:
@@ -3373,23 +3389,37 @@ react-devtools-core@^2.5.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-native-firebase@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/react-native-firebase/-/react-native-firebase-3.1.0.tgz#0391b7bd6ca5c9b68e5a54a9e87ad5ea5c8dd089"
+react-native-firebase@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-firebase/-/react-native-firebase-3.2.0.tgz#2d1283fae073353a374f640d51eb8537acabe24a"
   dependencies:
     bows "^1.6.0"
     opencollective "^1.0.3"
+    postinstall-build "^5.0.1"
     prop-types "^15.6.0"
 
-react-native-navigation@^1.1.284:
-  version "1.1.284"
-  resolved "https://registry.yarnpkg.com/react-native-navigation/-/react-native-navigation-1.1.284.tgz#4170a43f11d6c6ddb4c22542cf459c96e1043ea6"
+react-native-globalize@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/react-native-globalize/-/react-native-globalize-1.2.3.tgz#297f7c2770d81c8c73ea470e1582cb3828cb738a"
+  dependencies:
+    cldrjs "^0.4.8"
+    globalize joshswan/globalize
+    moment "^2.19.3"
+    prop-types "^15.5.10"
+
+react-native-navigation@^1.1.316:
+  version "1.1.322"
+  resolved "https://registry.yarnpkg.com/react-native-navigation/-/react-native-navigation-1.1.322.tgz#037b31bb980f72ee437b99250dd97da404704897"
   dependencies:
     lodash "4.x.x"
 
-react-native@^0.50.3:
-  version "0.50.3"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.50.3.tgz#91282bd5356cc7d794969cdc443cc764389b9af4"
+react-native-typography@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-typography/-/react-native-typography-1.1.0.tgz#daa19998c69a6fecf764510a602dcc42c1601773"
+
+react-native@^0.50.4:
+  version "0.50.4"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.50.4.tgz#194f5da4939087b3acee712a503475f4942dca7e"
   dependencies:
     absolute-path "^0.0.0"
     art "^0.10.0"

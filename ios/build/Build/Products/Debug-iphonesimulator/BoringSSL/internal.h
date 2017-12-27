@@ -1,4 +1,4 @@
-/* Copyright (c) 2015, Google Inc.
+/* Copyright (c) 2016, Google Inc.
  *
  * Permission to use, copy, modify, and/or distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
@@ -12,25 +12,23 @@
  * OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
  * CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. */
 
-#ifndef OPENSSL_HEADER_CRYPTO_RAND_INTERNAL_H
-#define OPENSSL_HEADER_CRYPTO_RAND_INTERNAL_H
+#ifndef OPENSSL_HEADER_X509_INTERNAL_H
+#define OPENSSL_HEADER_X509_INTERNAL_H
+
+#include <openssl/base.h>
+#include <openssl/evp.h>
+#include <openssl/x509.h>
 
 #if defined(__cplusplus)
 extern "C" {
 #endif
 
 
-/* CRYPTO_sysrand fills |len| bytes at |buf| with entropy from the operating
- * system. */
-void CRYPTO_sysrand(uint8_t *buf, size_t len);
+/* RSA-PSS functions. */
 
-
-#if defined(__cplusplus)
-}  /* extern C */
-#endif
-
-#endif  /* OPENSSL_HEADER_CRYPTO_RAND_INTERNAL_H */
-ssaPss|) and key |pkey|. It returns one on success and zero on
+/* x509_rsa_pss_to_ctx configures |ctx| for an RSA-PSS operation based on
+ * signature algorithm parameters in |sigalg| (which must have type
+ * |NID_rsassaPss|) and key |pkey|. It returns one on success and zero on
  * error. */
 int x509_rsa_pss_to_ctx(EVP_MD_CTX *ctx, X509_ALGOR *sigalg, EVP_PKEY *pkey);
 

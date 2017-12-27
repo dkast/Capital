@@ -11,6 +11,9 @@ dependencies: \
   /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-navigation/ios/RCCViewController.h \
   /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-navigation/ios/RCCManager.h \
   /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
   /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
   /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
   /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
@@ -22,8 +25,11 @@ dependencies: \
   /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
   /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManagerUtils.h \
   /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-navigation/ios/Helpers/RCCTitleViewHelper.h \
   /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-navigation/ios/RCCCustomBarButtonItem.h \
   /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-navigation/ios/UIViewController+Rotation.h \
-  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-navigation/ios/Helpers/RCTHelpers.h
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-navigation/ios/Helpers/RCTHelpers.h \
+  /Users/MacBookPro/Dev/React-Native/Capital/node_modules/react-native-navigation/ios/Helpers/RCTConvert+UIBarButtonSystemItem.h

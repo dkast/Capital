@@ -6,35 +6,35 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		LoZBL/XwOt5d48Y+RYXDbCIksy0=
+		e2ETgbn3+4ycvfVtku+m9JYaD0k=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
-		uJ8dPaHt75z19ijs08lkugHq/RA=
+		ooz0sIAaLKBGoFU5iKq8DR11NmY=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<data>
-		JBrL6En4QJlYoMl3malqnJmn+O8=
+		R/knOPjsjrJNiVtUa2S4kYE749M=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<data>
-		dbDeE0h2Hr7N2KnFoER4aHgVj90=
+		qcVgsOCxIzxwcNXLWXgRrNjnuT8=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<data>
-		6TSFXZwgmlONmxMDFLs4kWApLLU=
+		K7jOt4uC+lqy/StneXlQVk21axY=
 		</data>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<data>
-		VSLVXbhCV5mDC5jgqIEaBXF4Kbw=
+		CYfyvPIGUR84QvCD7SuNDvG6Bxc=
 		</data>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<data>
-		GppB8PhBSInv7zFg7eYcqNwZWXQ=
+		M3EBma1BpAxt7iGIjYcrm9BnNOc=
 		</data>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<data>
-		v6itdPCqWnawODUfQYc+nRyGDJY=
+		5EUn1qFgVTwSkfSLCubcLwgrx0c=
 		</data>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -47,7 +47,7 @@
 		</dict>
 		<key>Frameworks/XCTest.framework/version.plist</key>
 		<data>
-		iStWmEB1q6TTpoeht5O8TSdKtb0=
+		Etc/8BPenX54rv1uBx24u4bnqTg=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -55,7 +55,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hsL3Wt5m16F5dJ8Q49u9fUxAWN4=
+		XTOtHwQyBGOFd3KUDEEM8fYTXvY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -67,27 +67,27 @@
 		</data>
 		<key>PlugIns/CapitalTests.xctest.dSYM/Contents/Resources/DWARF/CapitalTests</key>
 		<data>
-		Yrz2x1/+005UbO4O7TM0AS0kT7M=
+		uIk+bCwGIB6Qu4VJfR2TXjc9jng=
 		</data>
 		<key>PlugIns/CapitalTests.xctest/CapitalTests</key>
 		<data>
-		swqHRaNnaV3Cz7nAWrlYUy0eGp0=
+		wN3IL887nMjIHCi5DexAaM0aybU=
 		</data>
 		<key>PlugIns/CapitalTests.xctest/Info.plist</key>
 		<data>
-		Ymd36h++s9+sqaf9Akh7aWF2y9k=
+		IglfM4kn4ypkux9zAepffliL4fk=
 		</data>
 		<key>PlugIns/CapitalTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		j+1efFiOoBohb4zDZGWJ5CVnFRk=
+		xwLTlSL+gXlfbllmxG7dRD2M7Aw=
 		</data>
 		<key>gRPCCertificates.bundle/Info.plist</key>
 		<data>
-		veR+N89Dg0TnLWKEQcT97ZrZms8=
+		SdcSznr5e6Ok4svvVxIdtcEQAng=
 		</data>
 		<key>gRPCCertificates.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		NIhY+gkSbGCvhf7fDQavGdd3An4=
+		wm9IFRrPVVZpWP+vDl/fCl8gidE=
 		</data>
 		<key>gRPCCertificates.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -95,7 +95,7 @@
 		</data>
 		<key>gRPCCertificates.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		iVqzdH5efRIX/cSJy9fEZyzhCk0=
+		LHfFH4DQY0vSd4anmkr+lb/QuGI=
 		</data>
 		<key>gRPCCertificates.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -116,88 +116,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LoZBL/XwOt5d48Y+RYXDbCIksy0=
+			e2ETgbn3+4ycvfVtku+m9JYaD0k=
 			</data>
 			<key>hash2</key>
 			<data>
-			SsdtwbAo6WYXjtneTci8qhwh3O50rs8zMB9pkIBq6Wo=
+			tc/uONXSYg8wCoR0qIqdFYy4oCfQ3bxEJj/qShKWwHU=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uJ8dPaHt75z19ijs08lkugHq/RA=
+			ooz0sIAaLKBGoFU5iKq8DR11NmY=
 			</data>
 			<key>hash2</key>
 			<data>
-			d6d8CZAcM6Kdjf0zJpNR/lLlm1JBIL+jo73yQnC1M8w=
+			QTZkTlnemyTcrFMb3v3GdQcfmpRodaOjtevd5TjxiiY=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JBrL6En4QJlYoMl3malqnJmn+O8=
+			R/knOPjsjrJNiVtUa2S4kYE749M=
 			</data>
 			<key>hash2</key>
 			<data>
-			J/Q7YarUOESTurbho30IqTRcE6OiUWHnLdfDSMUbyIs=
+			wLDjbULmM78l0rN5jh2/yPax234qVZL29OQBQmdYmOU=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dbDeE0h2Hr7N2KnFoER4aHgVj90=
+			qcVgsOCxIzxwcNXLWXgRrNjnuT8=
 			</data>
 			<key>hash2</key>
 			<data>
-			br5JnbDDYJqW9qsLElibwrloxLI/qAE+fWw2nPP0c5Y=
+			ZARlo4LD/z4nYhaCEocjb6nPjuZDCrLsQzn0n4GVr3s=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6TSFXZwgmlONmxMDFLs4kWApLLU=
+			K7jOt4uC+lqy/StneXlQVk21axY=
 			</data>
 			<key>hash2</key>
 			<data>
-			LZ1ASodl//MKBSICK68FJm/CdWCR8khtshgaFC/ieak=
+			VzM0aDQjkmLy+IyPasdn9DeGkOOTuNMbKUMz+3efAaU=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VSLVXbhCV5mDC5jgqIEaBXF4Kbw=
+			CYfyvPIGUR84QvCD7SuNDvG6Bxc=
 			</data>
 			<key>hash2</key>
 			<data>
-			VkelzrG8Kuv+tr/kUIl+vuviJ8HN2lva55atmSO9r6A=
+			Xsgm2dBly62EneiB04ryti89smi53XIXAOtYLFyW4ZE=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GppB8PhBSInv7zFg7eYcqNwZWXQ=
+			M3EBma1BpAxt7iGIjYcrm9BnNOc=
 			</data>
 			<key>hash2</key>
 			<data>
-			tkN5JJG6yN6ivA9JyljUiNPAUHZ189GU4IPEXdsKs1k=
+			qAlGOWS6ltLA/WrYd4Rz6EHPivttCiNu41NTW7ulBAI=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v6itdPCqWnawODUfQYc+nRyGDJY=
+			5EUn1qFgVTwSkfSLCubcLwgrx0c=
 			</data>
 			<key>hash2</key>
 			<data>
-			SuG0eC2epXej+0FOC+J+gltXGdKlh2SgWTAjCWbsFP0=
+			55ZdMLgNGz7Q67XNAv/M4f4uXy0R2d5+tlHRhlkL8t4=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
@@ -217,11 +217,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iStWmEB1q6TTpoeht5O8TSdKtb0=
+			Etc/8BPenX54rv1uBx24u4bnqTg=
 			</data>
 			<key>hash2</key>
 			<data>
-			inYnSzARwOiRjT2jEooaoBbVT1Ux8ckVmKUBouHF4mk=
+			Jh5i9giCFfo5GhN25CjMKdDJ6Kdlz/p4L95RITR+WeA=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -250,66 +250,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Yrz2x1/+005UbO4O7TM0AS0kT7M=
+			uIk+bCwGIB6Qu4VJfR2TXjc9jng=
 			</data>
 			<key>hash2</key>
 			<data>
-			3tePIsspgw8Ty8YtT5Xgde5iT1hRQc9Mh/Iw5P7pqZI=
+			Gt4VlOSv3ztJ2A3qJQxfkEEzAW0RLQjUkXmfRgcONpo=
 			</data>
 		</dict>
 		<key>PlugIns/CapitalTests.xctest/CapitalTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			swqHRaNnaV3Cz7nAWrlYUy0eGp0=
+			wN3IL887nMjIHCi5DexAaM0aybU=
 			</data>
 			<key>hash2</key>
 			<data>
-			420buXIqNS5+gMTeGgBIBYm3QBQDacgDdCBeLZI5x+I=
+			R65zI5d/CIhXKQKSUV8p+mSzMFW8U+kyupQCRUivhNw=
 			</data>
 		</dict>
 		<key>PlugIns/CapitalTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ymd36h++s9+sqaf9Akh7aWF2y9k=
+			IglfM4kn4ypkux9zAepffliL4fk=
 			</data>
 			<key>hash2</key>
 			<data>
-			mmtfF+ZDiHjc3qhw+5V1p5RSDfiBRNC9iqWvQi4rlnM=
+			I6A04rRyoRk8vocmWki8R8nbFQLNech1Zb7Yh3R3vP4=
 			</data>
 		</dict>
 		<key>PlugIns/CapitalTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j+1efFiOoBohb4zDZGWJ5CVnFRk=
+			xwLTlSL+gXlfbllmxG7dRD2M7Aw=
 			</data>
 			<key>hash2</key>
 			<data>
-			7czF32v304xg4TYibAlxo0wFw01yeeI2SE4anoiIouI=
+			Wtu6JsHdXq2wB4c5lVdxbIaGm+cpDJR2Ef8PzVD04rI=
 			</data>
 		</dict>
 		<key>gRPCCertificates.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			veR+N89Dg0TnLWKEQcT97ZrZms8=
+			SdcSznr5e6Ok4svvVxIdtcEQAng=
 			</data>
 			<key>hash2</key>
 			<data>
-			+Whgj58wRCdbp5p/OJ8sNlxsC1SqrOZ/m4ovwNK1e8I=
+			CTrVp5WcFhaRHk2ZvwGnp37h0yc1fN+cXJrL6js+xYQ=
 			</data>
 		</dict>
 		<key>gRPCCertificates.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NIhY+gkSbGCvhf7fDQavGdd3An4=
+			wm9IFRrPVVZpWP+vDl/fCl8gidE=
 			</data>
 			<key>hash2</key>
 			<data>
-			wmFeeDtk2xctGnAEdYq5FCpoL+DmhkLB00qzBLrVUKk=
+			Uu5YATbfYlz+20bvwgC/4OMDK3ms/QdOBYxDQ/t9ZOY=
 			</data>
 		</dict>
 		<key>gRPCCertificates.bundle/_CodeSignature/CodeRequirements</key>
@@ -327,11 +327,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iVqzdH5efRIX/cSJy9fEZyzhCk0=
+			LHfFH4DQY0vSd4anmkr+lb/QuGI=
 			</data>
 			<key>hash2</key>
 			<data>
-			gx46Jd9fWsoMT5TQ/bSToxIrPX5AbS5eH0g+tLEPKtQ=
+			035/e8FgQ8N3UT1ID7sFmyq36+lnbYBM2gEaca1R2IM=
 			</data>
 		</dict>
 		<key>gRPCCertificates.bundle/_CodeSignature/CodeResources</key>
