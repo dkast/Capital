@@ -1,12 +1,15 @@
 /* @flow */
 
 import React, { Component } from "react";
+import CryptoCompare from "../api/cryptoCompare";
+// import SparkLine from "../components/sparkLine";
+import { iOSUIKit, iOSColors } from "react-native-typography";
 import {
   FormattedCurrency,
+  FormattedNumber,
   PropTypes,
   Globalize
 } from "react-native-globalize";
-import { iOSUIKit, iOSColors } from "react-native-typography";
 import {
   ActivityIndicator,
   FlatList,
@@ -35,6 +38,7 @@ export default class Currency extends Component {
 
   componentDidMount() {
     this.fetchData();
+    this.fetchData();
   }
 
   getChildContext() {
@@ -48,29 +52,46 @@ export default class Currency extends Component {
     return item.book.toLowerCase().indexOf("mxn") > -1;
   };
 
-  fetchData = () => {
-    const url = "https://api.bitso.com/v3/ticker/";
-    //this.setState({ loading: true });
-    fetch(url)
-      .then(response => response.json())
-      .then(responseJson => {
-        console.log(responseJson.payload);
-        var data = responseJson.payload.filter(this.filterMXN);
-        this.setState({
-          data: data,
-          error: responseJson.error || null,
-          loading: false,
-          refreshing: false
-        });
-      })
-      .catch(errpr => {
-        console.log(error);
-        this.setState({
-          error,
-          loading: false,
-          refreshing: false
-        });
+  fetchData = async () => {
+    const currency = "MXN";
+    let data = [];
+    try {
+      const coins = ["BTC", "ETH", "XRP", "LTC"];
+      await Promise.all(
+        coins.map(async coin => {
+          const historical = await CryptoCompare.fetchCoinHistory(
+            "histohour",
+            coin,
+            currency,
+            "24"
+          );
+
+          const current = await CryptoCompare.fetchCoinPrice(coin, currency);
+
+          let item = {};
+          item.coin = coin;
+          item.currency = currency;
+          item.currentPrice = current;
+          item.historical = historical;
+          data.push(item);
+        })
+      );
+
+      //console.log(data);
+      this.setState({
+        data: data,
+        error: null,
+        loading: false,
+        refreshing: false
       });
+    } catch (error) {
+      console.log(error);
+      this.setState({
+        error,
+        loading: false,
+        refreshing: false
+      });
+    }
   };
 
   handleRefresh = () => {
@@ -97,7 +118,7 @@ export default class Currency extends Component {
       <View style={styles.container}>
         <FlatList
           data={this.state.data}
-          keyExtractor={item => item.book}
+          keyExtractor={item => item.coin}
           ItemSeparatorComponent={this.renderSeparator}
           refreshing={this.state.refreshing}
           onRefresh={this.handleRefresh}
@@ -108,34 +129,52 @@ export default class Currency extends Component {
   }
 
   renderItem = ({ item }) => {
+    console.log(item);
+    let currencyName;
+    const pastPrice = item.historical.slice(0, 1)[0];
+    const diffPrice = item.currentPrice - pastPrice.close;
+    const diffPct = diffPrice / item.currentPrice;
+
+    switch (item.coin) {
+      case "BTC":
+        currencyName = "Bitcoin";
+        break;
+      case "ETH":
+        currencyName = "Ethereum";
+        break;
+      case "XRP":
+        currencyName = "Ripple";
+        break;
+      case "LTC":
+        currencyName = "Litecoin";
+        break;
+      default:
+        currencyName = item.coin;
+    }
+
     return (
       <View style={styles.item}>
-        <Text style={styles.itemTitle}>{item.book}</Text>
-        <Text style={iOSUIKit.title3}>{item.last}</Text>
-        <FormattedCurrency
-          value={9.99}
-          currency="USD"
-          style={{ color: "red" }}
-        />
+        <View>
+          <Text style={styles.itemTitle}>{currencyName}</Text>
+          <FormattedCurrency
+            value={item.currentPrice}
+            currency="USD"
+            style={iOSUIKit.body}
+          />
+          <FormattedNumber
+            value={diffPct}
+            numberStyle="percent"
+            minimumFractionDigits={0}
+            maximumFractionDigits={2}
+          />
+        </View>
+        {/* <SparkLine /> */}
       </View>
     );
   };
 
   renderSeparator = () => <View style={styles.separator} />;
 }
-
-Currency.childContextTypes = {
-  globalize: PropTypes.globalizeShape
-};
-
-Currency.defaultProps = {
-  cldr: null,
-  currency: "USD",
-  locale: "es-419",
-  localeFallback: false,
-  messages: null,
-  warnOnMissingMessage: true
-};
 
 const styles = StyleSheet.create({
   container: {
@@ -149,11 +188,23 @@ const styles = StyleSheet.create({
     alignContent: "flex-end"
   },
   itemTitle: {
-    ...iOSUIKit.bodyEmphasizedObject,
-    color: iOSColors.gray
+    ...iOSUIKit.title3Object
   },
   separator: {
     height: 1,
     backgroundColor: iOSColors.lightGray
   }
 });
+
+Currency.childContextTypes = {
+  globalize: PropTypes.globalizeShape
+};
+
+Currency.defaultProps = {
+  cldr: null,
+  currency: "USD",
+  locale: "en",
+  localeFallback: false,
+  messages: null,
+  warnOnMissingMessage: true
+};
