@@ -2,7 +2,7 @@
 
 import React, { Component } from "react";
 import CryptoCompare from "../api/cryptoCompare";
-// import SparkLine from "../components/sparkLine";
+import SparkLine from "../components/sparkLine";
 import { iOSUIKit, iOSColors } from "react-native-typography";
 import {
   FormattedCurrency,
@@ -134,6 +134,10 @@ export default class Currency extends Component {
     const pastPrice = item.historical.slice(0, 1)[0];
     const diffPrice = item.currentPrice - pastPrice.close;
     const diffPct = diffPrice / item.currentPrice;
+    //const histArr = item.historical.map(hist => hist.close);
+    const diffArr = item.historical.map(
+      hist => +((hist.close - pastPrice.close) / hist.close * 100).toFixed(2)
+    );
 
     switch (item.coin) {
       case "BTC":
@@ -168,7 +172,7 @@ export default class Currency extends Component {
             maximumFractionDigits={2}
           />
         </View>
-        {/* <SparkLine /> */}
+        <SparkLine data={diffArr} />
       </View>
     );
   };
